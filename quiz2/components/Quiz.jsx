@@ -5,7 +5,6 @@ export default class Quiz extends Component {
 
     constructor(props) {
       super(props)
-    
       this.state = {
          index:0,
          questions:QuestionData
